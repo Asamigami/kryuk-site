@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Крюк С.Ю. — пожарная автоматика</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Manrope',system-ui,sans-serif;color:#14171C;background:#F6F3ED}
+a{color:inherit}
+.btn:hover{filter:brightness(1.12)}
+.lnk:hover{text-decoration:underline}
+input:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid #FF5C7C;outline-offset:2px}
+@container page (max-width:1024px){
+.wrap{padding-left:24px!important;padding-right:24px!important}
+.sec{padding-top:72px!important;padding-bottom:72px!important}
+.hero{padding-top:64px!important;padding-bottom:72px!important}
+.ph{min-height:260px!important}
+}
+@container page (max-width:640px){
+.wrap{padding-left:20px!important;padding-right:20px!important}
+.sec{padding-top:56px!important;padding-bottom:56px!important}
+.hero{padding-top:40px!important;padding-bottom:48px!important;gap:32px!important}
+.hdr-nav{gap:0 20px!important}
+.hdr-act{width:100%!important;justify-content:space-between!important}
+.lg-i{height:56px!important}
+.lg-t{height:50px!important}
+.cta{width:100%!important;box-sizing:border-box!important;text-align:center!important;padding:14px 20px!important}
+.pad-l{padding:24px!important}
+.ph{min-height:200px!important}
+}
+</style>
+</head>
+<body>
+<div style="font-family:'Manrope',system-ui,sans-serif;color:#14171C;background:#F6F3ED;container-type:inline-size;container-name:page">
+
+<!-- HEADER -->
+<header style="background:#14171C;color:#fff;border-bottom:1px solid #2A3038">
+<div class="wrap" style="max-width:1200px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 32px">
+<a href="#top" aria-label="Сергей Юрьевич Крюк — на главную" style="display:flex;flex-direction:row;align-items:center;gap:16px;line-height:0;text-decoration:none">
+<img src="images/logo-icon.png" alt="" class="lg-i" style="height:76px;width:auto;display:block">
+<img src="images/logo-text-light.png" alt="Сергей Юрьевич Крюк" class="lg-t" style="height:68px;width:auto;display:block">
+</a>
+<nav class="hdr-nav" style="display:flex;flex-wrap:wrap;gap:8px 28px;font-size:15px;font-weight:600">
+<a class="lnk" href="#stages" style="text-decoration:none;padding:10px 0">Этапы работы</a>
+<a class="lnk" href="#licenses" style="text-decoration:none;padding:10px 0">Лицензии</a>
+<a class="lnk" href="#cases" style="text-decoration:none;padding:10px 0">Объекты</a>
+<a class="lnk" href="#contacts" style="text-decoration:none;padding:10px 0">Контакты</a>
+</nav>
+<div class="hdr-act" style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px">
+<a href="tel:+79857948602" style="text-decoration:none;font-weight:700;font-size:16px">+7 (985) 794-86-02</a>
+<a class="btn" href="#kp" style="display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 22px;background:#AA1738;color:#fff;font-weight:700;font-size:15px;text-decoration:none;border-radius:6px">Запросить КП</a>
+</div>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="top" style="background:#14171C;color:#fff">
+<div class="wrap hero" style="max-width:1200px;margin:0 auto;padding:88px 32px 96px;display:flex;flex-wrap:wrap;gap:56px;align-items:center">
+<div style="flex:1 1 520px;min-width:0;display:flex;flex-direction:column;gap:28px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#FF5C7C">АПС · СОУЭ · радиоканальные системы</div>
+<h1 style="margin:0;font-size:clamp(34px,5vw,60px);line-height:1.05;font-weight:800;letter-spacing:-0.025em">Полная защита вашего бизнеса от пожара. Гарантия соответствия всем нормам РФ.</h1>
+<p style="margin:0;font-size:19px;line-height:1.55;color:#C5CBD2;max-width:600px">Проектирование, монтаж и пусконаладка систем АПС и СОУЭ. Решение вопросов с МЧС и контролирующими органами с первого раза.</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px">
+<a class="btn cta" href="#kp" style="display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 32px;background:#AA1738;color:#fff;font-weight:700;font-size:17px;text-decoration:none;border-radius:6px">Запросить коммерческое предложение</a>
+<a class="btn cta" href="tel:+79857948602" style="display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 32px;border:2px solid #4A525C;color:#fff;font-weight:700;font-size:17px;text-decoration:none;border-radius:6px">Позвонить специалисту</a>
+</div>
+<div style="font-size:15px;color:#A9B0B8">Работаем в Санкт-Петербурге, Ленинградской области, Москве и Московской области</div>
+</div>
+<div style="flex:1 1 400px;min-width:0;display:flex;flex-direction:column;gap:16px">
+<div class="ph" style="min-height:340px;border:1.5px dashed #4A525C;border-radius:10px;background:repeating-linear-gradient(135deg,#1A1F26 0,#1A1F26 14px,#171B21 14px,#171B21 28px);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#A9B0B8;font-size:15px">[ Фото оборудования или объекта ]</div>
+<div style="background:#1E232A;border-radius:10px;padding:22px 24px;display:flex;flex-direction:column;gap:6px">
+<div style="font-size:22px;font-weight:800">Мы не конкурируем по низкой цене.</div>
+<div style="font-size:15px;line-height:1.5;color:#C5CBD2">Мы проектируем так, чтобы у вас не было проблем с МЧС, лишним оборудованием и переделками.</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- MANUFACTURERS -->
+<section style="background:#EAE5DA;border-bottom:1px solid #D9D3C5">
+<div class="wrap" style="max-width:1200px;margin:0 auto;padding:36px 32px;display:flex;flex-wrap:wrap;align-items:center;gap:20px 48px">
+<div style="flex:0 0 auto;display:flex;align-items:center;gap:16px;min-height:56px"><div style="width:4px;align-self:stretch;background:#AA1738;border-radius:2px"></div><div style="font-size:22px;font-weight:800;line-height:1.15;letter-spacing:-0.01em">Устанавливаем<br>системы</div></div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 56px;flex:1 1 400px">
+<a class="btn" href="https://bolid.ru/" aria-label="Bolid" style="display:flex;align-items:center;min-height:56px;line-height:0"><img src="images/brand-bolid.png" alt="Bolid" style="height:56px;width:auto;display:block"></a>
+<a class="btn" href="https://products.rubezh.ru/?utm_source=rubezh.ru" aria-label="РУБЕЖ" style="display:flex;align-items:center;min-height:56px;line-height:0"><img src="images/brand-rubezh.png" alt="РУБЕЖ" style="height:36px;width:auto;display:block"></a>
+<a class="btn" href="https://argus-spectr.ru/" aria-label="Аргус-Спектр" style="display:flex;align-items:center;min-height:56px;line-height:0"><img src="images/brand-argus.png" alt="Аргус-Спектр" style="height:35px;width:auto;display:block"></a>
+</div>
+</div>
+</section>
+
+<!-- WHY QUALITY PROJECT -->
+<section id="why" style="background:#F6F3ED">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:820px;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#AA1738">Проект</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Почему качественный проект дороже, но выгоднее</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:24px">
+<div class="pad-l" style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:36px;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#5A5F66">Дешёвый проект</div>
+<div style="font-size:26px;font-weight:800;line-height:1.2">Переплата за оборудование и проблемы с проверками</div>
+<p style="margin:0;font-size:17px;line-height:1.6;color:#3C4148">Неквалифицированное проектирование тянет за собой избыток датчиков, лишние метры кабеля и постоянные доработки. «Экономия» на проекте оборачивается переплатой в 3–5 раз на оборудовании и риском штрафов от надзора.</p>
+</div>
+<div class="pad-l" style="background:#14171C;color:#fff;border-radius:10px;padding:36px;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#FF5C7C">Качественный проект</div>
+<div style="font-size:26px;font-weight:800;line-height:1.2">Экономия на оборудовании и материалах в разы больше стоимости проекта</div>
+<p style="margin:0;font-size:17px;line-height:1.6;color:#C5CBD2">Мы проектируем детально и дольше других. Но по нашим чертежам монтаж идёт в разы быстрее, а смета не раздувается за счёт «лишних» приборов.</p>
+</div>
+</div>
+<div>
+<a class="btn cta" href="#kp" style="display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 32px;background:#AA1738;color:#fff;font-weight:700;font-size:17px;text-decoration:none;border-radius:6px">Узнать стоимость проекта для вашего объекта</a>
+</div>
+</div>
+</section>
+
+<!-- STAGES -->
+<section id="stages" style="background:#fff;border-top:1px solid #E3DED3">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:820px;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#AA1738">Этапы работы</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Работы по пожарной автоматике начинаются с проекта. Иначе риск.</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:20px">
+<div style="border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;gap:20px">
+<div style="flex:0 0 auto;font-size:36px;font-weight:800;color:#AA1738;line-height:1">01</div>
+<div style="display:flex;flex-direction:column;gap:6px"><div style="font-size:20px;font-weight:800">Обследование и договор</div><div style="font-size:16px;line-height:1.5;color:#4A4F56">Фиксация задач, подписание договора, предоплата.</div></div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;gap:20px">
+<div style="flex:0 0 auto;font-size:36px;font-weight:800;color:#AA1738;line-height:1">02</div>
+<div style="display:flex;flex-direction:column;gap:6px"><div style="font-size:20px;font-weight:800">Проектирование (РД)</div><div style="font-size:16px;line-height:1.5;color:#4A4F56">Детальная схема, подбор оборудования, согласование сметы.</div></div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;gap:20px">
+<div style="flex:0 0 auto;font-size:36px;font-weight:800;color:#AA1738;line-height:1">03</div>
+<div style="display:flex;flex-direction:column;gap:6px"><div style="font-size:20px;font-weight:800">Поставка и монтаж</div><div style="font-size:16px;line-height:1.5;color:#4A4F56">Оригинальное оборудование, чистая работа, без сверления лишних отверстий.</div></div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;gap:20px">
+<div style="flex:0 0 auto;font-size:36px;font-weight:800;color:#AA1738;line-height:1">04</div>
+<div style="display:flex;flex-direction:column;gap:6px"><div style="font-size:20px;font-weight:800">Программирование и пусконаладка</div><div style="font-size:16px;line-height:1.5;color:#4A4F56">Настройка логики, интеграция с ОПС и умными системами.</div></div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;gap:20px">
+<div style="flex:0 0 auto;font-size:36px;font-weight:800;color:#AA1738;line-height:1">05</div>
+<div style="display:flex;flex-direction:column;gap:6px"><div style="font-size:20px;font-weight:800">Исполнительная документация и сдача</div><div style="font-size:16px;line-height:1.5;color:#4A4F56">Полный пакет для МЧС. При проверке надзорными органами защитим наш проект.</div></div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;gap:20px">
+<div style="flex:0 0 auto;font-size:36px;font-weight:800;color:#AA1738;line-height:1">06</div>
+<div style="display:flex;flex-direction:column;gap:6px"><div style="font-size:20px;font-weight:800">Техническое обслуживание</div><div style="font-size:16px;line-height:1.5;color:#4A4F56">Плановые регламенты, поддержка 24/7.</div></div>
+</div>
+</div>
+<div class="pad-l" style="background:#14171C;color:#fff;border-radius:10px;padding:40px;display:flex;flex-wrap:wrap;gap:28px 40px;align-items:center;justify-content:space-between">
+<div style="flex:1 1 520px;display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;font-weight:800;line-height:1.25">Мы не начинаем монтаж без утверждённого проекта.</div>
+<p style="margin:0;font-size:17px;line-height:1.6;color:#C5CBD2">Это не бюрократия. Это ваша страховка от штрафов и простоев. Система пожарной автоматики — самая зарегулированная слаботочная система, и ошибки обследования на этапе проекта потом не исправить.</p>
+</div>
+<a class="btn cta" href="#kp" style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 32px;background:#AA1738;color:#fff;font-weight:700;font-size:17px;text-decoration:none;border-radius:6px">Получить график работ под ваш объект</a>
+</div>
+</div>
+</section>
+
+<!-- RADIO SYSTEMS -->
+<section id="radio" style="background:#14171C;color:#fff">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:820px;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#FF5C7C">Радиоканальные системы</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Радиоканальные системы: будущее безопасности</h2>
+<p style="margin:0;font-size:19px;line-height:1.55;color:#C5CBD2">Отказ от проводов. Сохранение архитектуры. Экономия на обслуживании. Сегодня все уходят от проводных систем и переключаются на радиоканальные.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:20px">
+<div style="background:#1E232A;border-radius:10px;padding:28px;display:flex;flex-direction:column;gap:14px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FF5C7C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M12 19.5h.01"></path></svg>
+<div style="font-size:20px;font-weight:800">Без проводов</div>
+<div style="font-size:16px;line-height:1.5;color:#C5CBD2">Никакой прокладки кабеля по всему объекту.</div>
+</div>
+<div style="background:#1E232A;border-radius:10px;padding:28px;display:flex;flex-direction:column;gap:14px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FF5C7C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13M9 21v-6h6v6"></path></svg>
+<div style="font-size:20px;font-weight:800">Без штробления стен</div>
+<div style="font-size:16px;line-height:1.5;color:#C5CBD2">Идеально для памятников культуры, исторических зданий и действующих цехов.</div>
+</div>
+<div style="background:#1E232A;border-radius:10px;padding:28px;display:flex;flex-direction:column;gap:14px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FF5C7C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v5l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"></path></svg>
+<div style="font-size:20px;font-weight:800">Быстрый монтаж</div>
+<div style="font-size:16px;line-height:1.5;color:#C5CBD2">Объект работает в обычном режиме, остановка цеха не нужна.</div>
+</div>
+<div style="background:#1E232A;border-radius:10px;padding:28px;display:flex;flex-direction:column;gap:14px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FF5C7C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7 8h8a3 3 0 0 1 0 6H8a3 3 0 0 0 0 6h9"></path></svg>
+<div style="font-size:20px;font-weight:800">Экономия на обслуживании</div>
+<div style="font-size:16px;line-height:1.5;color:#C5CBD2">Меньше инфраструктуры — меньше затрат на регламентные работы.</div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px">
+<div class="ph" style="min-height:300px;border:1.5px dashed #4A525C;border-radius:10px;background:repeating-linear-gradient(135deg,#1A1F26 0,#1A1F26 14px,#171B21 14px,#171B21 28px);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#A9B0B8;font-size:15px">[ Схема радиоканальной системы ]</div>
+<div class="ph" style="min-height:300px;border:1.5px dashed #4A525C;border-radius:10px;background:repeating-linear-gradient(135deg,#1A1F26 0,#1A1F26 14px,#171B21 14px,#171B21 28px);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#A9B0B8;font-size:15px">[ Фото оборудования с объектов ]</div>
+</div>
+</div>
+</section>
+
+<!-- LICENSES -->
+<section id="licenses" style="background:#F6F3ED">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:820px;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#AA1738">Лицензии и аттестация</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Работаем официально. Отвечаем документально.</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:20px">
+<div style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#AA1738" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8zM14 3v5h5M9 13h6M9 17h6"></path></svg>
+<div style="font-size:20px;font-weight:800">Лицензия ИП Крюк С.Ю.</div>
+<div style="font-size:16px;line-height:1.5;color:#4A4F56;flex:1">Право проектирования и монтажа систем ПБ.</div>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">Скачать PDF</a>
+</div>
+<div style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#AA1738" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6zM9 12l2 2 4-4"></path></svg>
+<div style="font-size:20px;font-weight:800">Аттестация МЧС России</div>
+<div style="font-size:16px;line-height:1.5;color:#4A4F56;flex:1">Сергей Крюк аттестован как проектировщик средств обеспечения ПБ.</div>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">Скачать PDF</a>
+</div>
+<div style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#AA1738" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v14H4zM4 10h16M9 10v9"></path></svg>
+<div style="font-size:20px;font-weight:800">Реестр проектировщиков Аргус-Спектр</div>
+<div style="font-size:16px;line-height:1.5;color:#4A4F56;flex:1">Входим в число аттестованных специалистов производителя.</div>
+<a class="lnk" href="https://argus-spectr.ru/" style="font-size:15px;font-weight:700;color:#AA1738">Перейти в реестр</a>
+</div>
+</div>
+<p style="margin:0;font-size:18px;line-height:1.6;color:#3C4148;max-width:820px">Всё по последней букве закона: договоры, акты, исполнительная документация. Мы платим налоги, поэтому при работе с нами у вас не будет проблем. Вы платите за результат, а не за риски.</p>
+</div>
+</section>
+
+<!-- CASES -->
+<section id="cases" style="background:#fff;border-top:1px solid #E3DED3">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:820px;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#AA1738">Исполненные объекты (кейсы)</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Объекты, где безопасность не ставится под вопрос</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:20px">
+<div style="border:1px solid #E3DED3;border-radius:10px;overflow:hidden;display:flex;flex-direction:column">
+<div style="height:180px;background:repeating-linear-gradient(135deg,#EFEBE2 0,#EFEBE2 14px,#E8E3D8 14px,#E8E3D8 28px);display:flex;align-items:center;justify-content:center;color:#5A5F66;font-size:14px">[ Фото объекта ]</div>
+<div style="padding:24px;display:flex;flex-direction:column;gap:12px;flex:1">
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Задача</div>
+<div style="font-size:16px;line-height:1.5">Замена устаревшей системы на действующем производстве без остановки цеха.</div>
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Решение</div>
+<div style="font-size:16px;line-height:1.5;flex:1">Радиоканальная система Аргус-Спектр. Монтаж за 5 дней. Сдача с первого раза.</div>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">АСБ → Смотреть в реестре</a>
+</div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;overflow:hidden;display:flex;flex-direction:column">
+<div style="height:180px;background:repeating-linear-gradient(135deg,#EFEBE2 0,#EFEBE2 14px,#E8E3D8 14px,#E8E3D8 28px);display:flex;align-items:center;justify-content:center;color:#5A5F66;font-size:14px">[ Фото объекта ]</div>
+<div style="padding:24px;display:flex;flex-direction:column;gap:12px;flex:1">
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Задача</div>
+<div style="font-size:16px;line-height:1.5">[Описание задачи по объекту]</div>
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Решение</div>
+<div style="font-size:16px;line-height:1.5;flex:1">[Описание решения, сроки]</div>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">АСБ → Смотреть в реестре</a>
+</div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;overflow:hidden;display:flex;flex-direction:column">
+<div style="height:180px;background:repeating-linear-gradient(135deg,#EFEBE2 0,#EFEBE2 14px,#E8E3D8 14px,#E8E3D8 28px);display:flex;align-items:center;justify-content:center;color:#5A5F66;font-size:14px">[ Фото объекта ]</div>
+<div style="padding:24px;display:flex;flex-direction:column;gap:12px;flex:1">
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Задача</div>
+<div style="font-size:16px;line-height:1.5">[Описание задачи по объекту]</div>
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Решение</div>
+<div style="font-size:16px;line-height:1.5;flex:1">[Описание решения, сроки]</div>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">АСБ → Смотреть в реестре</a>
+</div>
+</div>
+<div style="border:1px solid #E3DED3;border-radius:10px;overflow:hidden;display:flex;flex-direction:column">
+<div style="height:180px;background:repeating-linear-gradient(135deg,#EFEBE2 0,#EFEBE2 14px,#E8E3D8 14px,#E8E3D8 28px);display:flex;align-items:center;justify-content:center;color:#5A5F66;font-size:14px">[ Фото объекта ]</div>
+<div style="padding:24px;display:flex;flex-direction:column;gap:12px;flex:1">
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Задача</div>
+<div style="font-size:16px;line-height:1.5">[Описание задачи по объекту]</div>
+<div style="font-size:13px;font-weight:700;color:#AA1738;text-transform:uppercase;letter-spacing:0.08em">Решение</div>
+<div style="font-size:16px;line-height:1.5;flex:1">[Описание решения, сроки]</div>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">АСБ → Смотреть в реестре</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" style="background:#F6F3ED">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-direction:column;gap:48px">
+<div style="max-width:820px;display:flex;flex-direction:column;gap:16px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#AA1738">Отзывы наших клиентов</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Реальные клиенты. Реальные площадки.</h2>
+<p style="margin:0;font-size:18px;line-height:1.6;color:#3C4148">Мы не рисуем скриншоты. Вы всегда можете проверить автора отзыва, его профиль и историю сотрудничества.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:20px">
+<div class="pad-l" style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:16px">
+<div><div style="font-size:18px;font-weight:800">Алексей В.</div><div style="font-size:14px;color:#5A5F66">ПК «Северо-Запад»</div></div>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#2B3036;flex:1">Сдали объект с первого предъявления МЧС. Ни одного замечания по документации. Проект Крюка детальный до мелочей: монтажники работали строго по схемам, без переделок и допзакупок. Да, ценник выше среднего, но мы сэкономили на оборудовании и избежали штрафов. Рекомендую тем, кто ценит время и юридическую чистоту.</p>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">Отзыв на Яндекс.Картах →</a>
+</div>
+<div class="pad-l" style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:16px">
+<div><div style="font-size:18px;font-weight:800">Марина К.</div><div style="font-size:14px;color:#5A5F66">УК «Невский Фонд» (БЦ в центре СПб)</div></div>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#2B3036;flex:1">Объект в центре Петербурга, сверлить стены категорически запрещено. Сергей предложил радиоканальное решение: монтаж за 4 дня, ни одной штробы, ни одного согласования с КГИОП. Система интегрирована с охраной и протечками. Работают чётко, без лишних слов и «бесплатных» выездов, которые потом раздувают смету. Платим за результат — получаем результат.</p>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">Отзыв на Яндекс.Картах →</a>
+</div>
+<div class="pad-l" style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:16px">
+<div><div style="font-size:18px;font-weight:800">Дмитрий С.</div><div style="font-size:14px;color:#5A5F66">Логистический хаб «Балтика-Пром» (ЛО)</div></div>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#2B3036;flex:1">Наконец-то подрядчик, который не юлит. Договор, акт, полная исполнительная документация, все налоги платятся. Смета фиксированная, никаких «вдруг подорожало» в процессе. Проект спроектирован так, что даже сторонняя бригада смогла бы всё собрать без ошибок. Если ищете «подешевле» — это не к ним. Если нужна гарантия и спокойный сон — вам сюда.</p>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">Отзыв на Яндекс.Картах →</a>
+</div>
+<div class="pad-l" style="background:#fff;border:1px solid #E3DED3;border-radius:10px;padding:32px;display:flex;flex-direction:column;gap:16px">
+<div><div style="font-size:18px;font-weight:800">Игорь Л.</div><div style="font-size:14px;color:#5A5F66">Химическое производство [название]</div></div>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#2B3036;flex:1">Заменили проводную систему на действующем производстве без остановки цеха. Бригада приехала в фирменной форме, всё аккуратно, мусор убрали сами. Без перекуров и отвлечений, концентрация на задаче максимальная. Сроки выдержаны день в день, программирование и пусконаладка прошли без сбоев. Профессионалы, которые знают цену времени и вашему объекту.</p>
+<a class="lnk" href="#" style="font-size:15px;font-weight:700;color:#AA1738">Отзыв на Яндекс.Картах →</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PRICE NOTE + FORM -->
+<section id="kp" style="background:#14171C;color:#fff">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-wrap:wrap;gap:56px">
+<div style="flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:24px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#FF5C7C">Коммерческое предложение</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Запросить КП</h2>
+<p style="margin:0;font-size:18px;line-height:1.6;color:#C5CBD2">Оставьте контакт. Мы свяжемся в рабочее время, уточним параметры объекта и подготовим расчёт по рекомендованным ценам производителей.</p>
+<div style="background:#1E232A;border-radius:10px;padding:24px 28px;display:flex;flex-direction:column;gap:6px">
+<div style="font-size:14px;color:#A9B0B8">Вызов инженера</div>
+<div style="font-size:30px;font-weight:800">20 000 ₽ <span style="font-size:16px;font-weight:600;color:#A9B0B8">(НДС 5%)</span></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:15px;color:#A9B0B8">Или пишите в мессенджер:</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a class="btn" href="#" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border:2px solid #4A525C;border-radius:6px;font-weight:700;font-size:15px;text-decoration:none">Telegram</a>
+<a class="btn" href="#" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border:2px solid #4A525C;border-radius:6px;font-weight:700;font-size:15px;text-decoration:none">WhatsApp</a>
+</div>
+</div>
+</div>
+<form class="pad-l" style="flex:1 1 420px;min-width:0;background:#fff;color:#14171C;border-radius:10px;padding:36px;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="f-name" style="font-size:15px;font-weight:700">Имя</label>
+<input id="f-name" type="text" placeholder="Ваше имя" style="box-sizing:border-box;width:100%;min-height:52px;padding:0 16px;font-family:inherit;font-size:16px;border:1.5px solid #C9C3B5;border-radius:6px;background:#fff;color:#14171C">
+</div>
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="f-phone" style="font-size:15px;font-weight:700">Телефон</label>
+<input id="f-phone" type="tel" placeholder="+7 " style="box-sizing:border-box;width:100%;min-height:52px;padding:0 16px;font-family:inherit;font-size:16px;border:1.5px solid #C9C3B5;border-radius:6px;background:#fff;color:#14171C">
+</div>
+<label style="display:flex;gap:12px;align-items:flex-start;font-size:14px;line-height:1.5;color:#4A4F56">
+<input type="checkbox" style="margin-top:3px;width:18px;height:18px;flex:0 0 auto">
+<span>Я даю своё согласие на обработку и хранение моих персональных данных согласно <a href="#" style="color:#AA1738">Политике обработки и хранения персональных данных</a>.</span>
+</label>
+<button type="button" class="btn" style="min-height:56px;border:0;border-radius:6px;background:#AA1738;color:#fff;font-family:inherit;font-weight:700;font-size:17px;cursor:pointer">Получить расчёт</button>
+</form>
+</div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section id="about" style="background:#F6F3ED">
+<div class="wrap sec" style="max-width:1200px;margin:0 auto;padding:96px 32px;display:flex;flex-wrap:wrap;gap:48px;align-items:center">
+<div style="flex:1 1 320px;max-width:380px;min-width:0">
+<div style="aspect-ratio:4/5;border:1.5px dashed #B9B2A2;border-radius:10px;background:repeating-linear-gradient(135deg,#EFEBE2 0,#EFEBE2 14px,#E8E3D8 14px,#E8E3D8 28px);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:#5A5F66;font-size:15px">[ Портрет С. Ю. Крюка ]</div>
+</div>
+<div style="flex:2 1 520px;min-width:0;display:flex;flex-direction:column;gap:24px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#AA1738">О нашем подходе</div>
+<h2 style="margin:0;font-size:clamp(30px,4.2vw,44px);line-height:1.1;font-weight:800;letter-spacing:-0.02em">Мы не ищем клиентов. Клиенты ищут надёжность.</h2>
+<p style="margin:0;font-size:20px;line-height:1.6;color:#2B3036;max-width:760px">Мы проектируем так, чтобы после нас на объект могла зайти любая квалифицированная бригада и всё собрать без ошибок.</p>
+<div style="display:flex;flex-direction:column;gap:2px">
+<div style="font-size:20px;font-weight:800">Сергей Юрьевич Крюк</div>
+<div style="font-size:15px;color:#5A5F66">Основатель компании</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER / CONTACTS -->
+<footer id="contacts" style="background:#14171C;color:#fff;border-top:1px solid #2A3038">
+<div class="wrap" style="max-width:1200px;margin:0 auto;padding:72px 32px 32px;display:flex;flex-direction:column;gap:48px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#FF5C7C">Контакты</div>
+<div style="font-size:16px;line-height:1.6;color:#C5CBD2">г. Уфа, ул. [Название улицы], д. [номер] (450XXX)</div>
+<a href="tel:+79273344655" style="font-size:18px;font-weight:700;text-decoration:none">+7 (927) 33 44-655</a>
+<a href="tel:+79857948602" style="font-size:18px;font-weight:700;text-decoration:none">+7 (985) 794-86-02</a>
+<a class="lnk" href="mailto:info@company.ru" style="font-size:16px;color:#C5CBD2">info@company.ru</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#FF5C7C">Режим работы</div>
+<div style="font-size:16px;line-height:1.7;color:#C5CBD2">Пн–Пт 09:00–18:00<br>Сб 10:00–15:00<br>Вс выходной</div>
+<a class="btn" href="#kp" style="align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border:2px solid #4A525C;border-radius:6px;font-weight:700;font-size:15px;text-decoration:none;margin-top:6px">Заказать обратный звонок</a>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#FF5C7C">География</div>
+<div style="font-size:16px;line-height:1.7;color:#C5CBD2">Санкт-Петербург<br>Ленинградская область<br>Москва<br>Московская область</div>
+</div>
+</div>
+<div style="border-top:1px solid #2A3038;padding-top:24px;display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between;font-size:14px;color:#A9B0B8">
+<div>© 2026 ИП Крюк С.Ю. Работаем по договору. Все права защищены.</div>
+<a class="lnk" href="#">Политика конфиденциальности</a>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
